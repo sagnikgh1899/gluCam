@@ -1,0 +1,4 @@
+runtime: python39
+instance_class: F4_HIGHMEM
+
+entrypoint: gunicorn -b :$PORT main:app --timeout 600
