@@ -24,6 +24,11 @@ Capture images of both the eyes. A good snapshot is preferred for the code to de
 
 ## Step 2:
 In Step 1, ROI from the digital eye image is extracted using five main functions: Extraction, Erosion, LargestArea, Merge, and Converter. Extraction removes the majority-white portion from the input image, followed by Erosion that dilates the white boundaries. From the dilated image the largest white region is extracted by LargestArea, merged with the original input image by Merge, and Converter outputs the required ROI.
+<p align="left">
+  <img width="300" height="250" src="https://user-images.githubusercontent.com/59502132/143079115-73e48dd0-cb84-410a-bf44-6c54bca3ee4d.png">
+  <img width="300" height="250" src="https://user-images.githubusercontent.com/59502132/143079112-2abf5d0b-181c-4e4e-9966-e74e0cda02bc.png">
+  <img width="300" height="250" src="https://user-images.githubusercontent.com/59502132/143079109-7ab1ab31-f2fe-405d-bb68-9f7f45fa5ca6.png">
+</p>
 <p align="center">
   <img width="560" height="600" src="https://user-images.githubusercontent.com/59502132/143029549-6360e3c4-0a1f-4fe9-8df4-19f0dc4639e5.png">
 </p>
